@@ -1,8 +1,25 @@
 <?php
+require_once(__DIR__ ."/../model/database.php");
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+$connection = new mysqli($host, $username, $password);
 
+if($connection->connect_error){
+    die("Error: " . $connection->connect_error);
+}
+
+$exists = $connection->select_db($database);
+
+if(!$exists){
+    $query = $connection->query("CREATE DATABASE $database");
+  if($query){
+    echo"Successfully created database: " . $daRFqedawszcxvtabase;
+   }
+}
+else{
+    echo "Database already exists.";
+}
+
+
+ $query = $connection->query("CREATE TABLE posts (");
+
+$connection->close();
