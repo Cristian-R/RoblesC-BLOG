@@ -1,6 +1,10 @@
 <?php
 require_once(__DIR__. "/database.php");
-    $path = "/RoblesC-BLOG/";
+session_start();  
+
+session_regenerate_id(true);
+
+$path = "/RoblesC-BLOG/";
    
 $host = "localhost";
 
@@ -10,4 +14,8 @@ $password = "root";
 
 $database = "blog_db";
 
-$connection = new Database($host, $username, $password, $database);
+if(!isset($_SESSION["connection"])){
+    $connection = new Database($host, $username, $password, $database);
+    $_SESSION["connection"] = $connection;
+}
+
