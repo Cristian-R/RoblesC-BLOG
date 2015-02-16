@@ -11,6 +11,6 @@
 ?>
 <nav>
     <ul>
-        <li><a href="<?php echo $path . "post.php"?>">Blog Post Form</a></li>
+        <li><a class="btn btn-primary btn-md" href="<?php echo $path . "post.php"?>">Blog Post Form</a></li>
     </ul>
 </nav>
