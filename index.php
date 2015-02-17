@@ -1,11 +1,8 @@
     <link type='text/css' rel='stylesheet' href='css/bootstrap-theme.css'>
     <link type='text/css' rel='stylesheet' href='css/bootstrap.css'>
     <link type='text/css' rel='stylesheet' href='css/index.css'>
-    <link type='text/css' rel='stylesheet' href='css/script.css'>
-   
-
-
-       <div class="container"> 
+    <title>RoblesC-BLOG</title>
+  <div class="container"> 
     <div class="jumbotron">
         
   <h1>Hello, Welcome to my blog!!!</h1>
@@ -38,5 +35,5 @@
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
        <script src="js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
     
