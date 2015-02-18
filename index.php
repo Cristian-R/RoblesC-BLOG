@@ -14,16 +14,20 @@
   <a class="btn btn-primary btn-md" type="button" href="controller/logout-user.php" class="btn btn-default">Logout</a>
   <a class="btn btn-primary btn-md" type="button" href="register.php" class="btn btn-default">Register</a>
 
-  <div class="btn-group" role="group">
-    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+  <div  class="btn-group" role="group">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
       Portfolio 3
       <span class="caret"></span>
     </button>
     <ul class="dropdown-menu" role="menu">
-      <li><a href="Cristian-Robles portfolio 2.0/index.html">About me</a></li>
-      <li><a href="Cristian-Robles portfolio 2.0/Projects.html">Projects</a></li>
-      <li><a href="Cristian-Robles portfolio 2.0/Technology.html">Technology</a></li>
-    </ul>
+        
+        <li><a href="Portfolio2-jQuery-master/public_html/index.html">About me</a></li>
+        <li><a href="Portfolio2-jQuery-master/public_html/Projects.html">Projects</a></li>
+        <li><a href="Portfolio2-jQuery-master/public_html/Technology.html">Technology</a></li>  
+        <li role="presentation" class="divider"></li>
+        <li><a href="Portfolio2-jQuery-master/public_html/jQuery.html">jQuery</a></li>    
+   
+   </ul>
   </div>
 </div>
   

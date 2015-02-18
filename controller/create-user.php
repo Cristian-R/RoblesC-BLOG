@@ -22,6 +22,9 @@
         header("Location: " . $path . "index.php");
     }
     else{
-         die();
+ die();
+    
     }
+    
+    
     
