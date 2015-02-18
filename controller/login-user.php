@@ -6,6 +6,7 @@
     
     $query = $_SESSION["connection"]->query("SELECT salt, password FROM users WHERE username = '$username'");
  
+    
     if($query->num_rows == 1) {
         $row = $query->fetch_array();
         

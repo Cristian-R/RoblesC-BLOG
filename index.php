@@ -16,7 +16,7 @@
 
   <div  class="btn-group" role="group">
     <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-      Portfolio 3
+      Portfolio 2
       <span class="caret"></span>
     </button>
     <ul class="dropdown-menu" role="menu">
