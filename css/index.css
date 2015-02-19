@@ -13,3 +13,6 @@ body{
 h1{
     color:white;
 }
+.navbar navbar-inverse{
+margin-left:360px;
+}

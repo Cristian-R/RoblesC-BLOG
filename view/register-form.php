@@ -1,5 +1,7 @@
 <?php
-    require_once(__DIR__ ."/../model/config.php");
+
+    require_once(__DIR__ . "/../model/config.php");
+    
 ?>
 
 <h1>Register</h1>
@@ -8,7 +10,8 @@
     
     <div>
         <label for="email">Email: </label>
-        <input type="text" name="email" />
+        <input type="text" name="email" />    
+        
     </div>
        
     <div>

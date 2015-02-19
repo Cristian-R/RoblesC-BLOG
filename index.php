@@ -9,7 +9,7 @@
         
   <h1>Hello, Welcome to my blog!!!</h1>
 
-<div class="btn-group" role="group" aria-label="...">
+<div class="navbar navbar-inverse" role="group" aria-label="...">
   <a class="btn btn-primary btn-md" type="button" href="login.php" class="btn btn-default">Login</a>
   <a class="btn btn-primary btn-md" type="button" href="controller/logout-user.php" class="btn btn-default">Logout</a>
   <a class="btn btn-primary btn-md" type="button" href="register.php" class="btn btn-default">Register</a>
