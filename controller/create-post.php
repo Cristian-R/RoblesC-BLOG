@@ -17,9 +17,9 @@
     if($query){
         header("Location: " . $path . "index.php");
     }
-    else{
+    else{    }
+
         die();
-    }
 ?>
    <?php
 date_default_timezone_set('America/Los_Angeles');
@@ -31,4 +31,4 @@ if (strcmp($script_tz, ini_get('date.timezone'))){
 } else {
     echo '$script_tz';
 }
-?> 
+?>  

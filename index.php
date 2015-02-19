@@ -1,14 +1,14 @@
     <link type='text/css' rel='stylesheet' href='css/bootstrap-theme.css'>
     <link type='text/css' rel='stylesheet' href='css/bootstrap.css'>
     <link type='text/css' rel='stylesheet' href='css/index.css'>
-    <link rel="shortcut icon" href="https://farm9.staticflickr.com/8115/8673546462_73b2df8cb3.jpg">
+    <link rel="shortcut icon" href="https://pbs.twimg.com/profile_images/453797908786065408/d3NChSeq_400x400.jpeg">
     <title>RoblesC-BLOG</title>
     
   <div class="container"> 
     <div class="jumbotron">
         
   <h1>Hello, Welcome to my blog!!!</h1>
-  
+
 <div class="btn-group" role="group" aria-label="...">
   <a class="btn btn-primary btn-md" type="button" href="login.php" class="btn btn-default">Login</a>
   <a class="btn btn-primary btn-md" type="button" href="controller/logout-user.php" class="btn btn-default">Logout</a>
@@ -35,6 +35,8 @@
   
    </div>
         </div>
+    
+
 
 <?php
    
