@@ -4,9 +4,9 @@
     $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
     $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_STRING);
     
-    $query = $_SESSION["connection"]->query("SELECT salt, password FROM users WHERE username = '$username'");
+    $query = $_SESSION["connection"]->query("SELECT salt, password FROM users WHERE BINARY username = '$username'");
  
-    
+    //("SELECT * FROM users WHERE BINARY username='$username' AND password='$password'") GOT THIS ONLINE TO MAKE  USERNAMES CASE SENSITIVE NOT SURE IF IT WORKS
     if($query->num_rows == 1) {
         $row = $query->fetch_array();
         

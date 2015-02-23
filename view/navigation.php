@@ -13,4 +13,7 @@
     <ul>
         <li><a class="btn btn-primary btn-md" href="<?php echo $path . "post.php"?>">Blog Post Form</a></li>
     </ul>
+    <ul>
+        <li><a class="btn btn-primary btn-md" href="<?php echo $path . "controller/logout-user.php"?>">Logout</a></li>
+    </ul>
 </nav>

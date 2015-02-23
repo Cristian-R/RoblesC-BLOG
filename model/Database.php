@@ -7,6 +7,8 @@ class Database {
     private $username;
     private $password;
     private $database;
+    private $stmt;
+    private $qry;
     public $error;
 
     public function __construct($host, $username, $password, $database) {
@@ -61,5 +63,6 @@ else {
 
         return $query;
     }
+  
 
 }
