@@ -13,6 +13,7 @@
     <ul>
         <li><a class="btn btn-primary btn-md" href="<?php echo $path . "post.php"?>">Blog Post Form</a></li>
     </ul>
+    <!--this makes both links post.php and logout-user.php visible only once the user has been signed in-->
     <ul>
         <li><a class="btn btn-primary btn-md" href="<?php echo $path . "controller/logout-user.php"?>">Logout</a></li>
     </ul>

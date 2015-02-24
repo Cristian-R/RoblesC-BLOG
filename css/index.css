@@ -1,21 +1,20 @@
 body{
-    background-color: seagreen;
-        
+    background-color: seagreen;       
 }
 .text{
     color:white;
 }
 .jumbotron{
+   
     background-color:purple;
     margin-top:35px;
     color:white;
-    
 }
 h1{
     color:white;
 }
 .navbar navbar-inverse{
-margin-left:360px;
+    margin-left:360px;
 }
 .jumbotron h1{
     border-top: 2px black none;
