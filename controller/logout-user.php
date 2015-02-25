@@ -8,7 +8,10 @@
     session_destroy();
 
     header("Location: " . $path . "index.php");
- 
+    
+    if($session_destroy){
+        echo"successfully logged out";
+    }
         
     
     
