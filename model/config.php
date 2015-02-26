@@ -5,9 +5,9 @@ session_start();
 session_regenerate_id(true);
 
 $path = "/RoblesC-BLOG/";
-   
+   //BELOW IS the information of the database
 $host = "localhost";
-
+//thats pretty much it
 $username = "root";
 
 $password = "root";

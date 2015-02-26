@@ -10,7 +10,7 @@ class Database {
     private $stmt;
     private $qry;
     public $error;
-
+//these are all of my variables (ABOVE)
     public function __construct($host, $username, $password, $database) {
         $this->host = $host;
         $this->username = $username;
@@ -24,7 +24,7 @@ class Database {
     }
     
     $exists = $this->connection->select_db($database);
-
+//this is what created a database around video 15-20
     if (!$exists) {
         $query = $this->connection->query("CREATE DATABASE $database");
     if ($query) {
@@ -38,7 +38,7 @@ else {
 
     public function openConnection() {
         $this->connection = new mysqli($this->host, $this->username, $this->password, $this->database);
-
+//all the info. from the database
         if ($this->connection->connect_error) {
             die("<p>Error: " . $this->connection->connect_error . "</p>");
         }

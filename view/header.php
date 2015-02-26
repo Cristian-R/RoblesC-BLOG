@@ -11,6 +11,10 @@ require_once (__DIR__ . "/../controller/login-verify.php");
 <html>
     <head>
         <meta charset="UTF-8">
+        <!--refactored code dont know how to explain 
+       \_       _/
+         \(*.*)/
+        -->
         <title></title>
     </head>
     <body>

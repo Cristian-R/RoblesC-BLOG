@@ -11,7 +11,7 @@ $query = $_SESSION["connection"]->query("CREATE TABLE posts ("
         . "title varchar(255) NOT NULL,"
         . "post text NOT NULL,"
         . "PRIMARY KEY (id))");
-
+//creates a table for the posts(ABOVE)
 if ($query) {
     echo "<p>Succesfully a create table: posts</p>";
 } 
@@ -26,6 +26,7 @@ $query = $_SESSION["connection"]->query("CREATE TABLE users ("
         . "password char(128) NOT NULL,"
         . "salt char(128) NOT NULL,"
         . "PRIMARY KEY (id))");
+//Creates a table for users(ABOVE)
 if ($query) {
     echo "<p>Succesfully create table: users</p>";
 } 

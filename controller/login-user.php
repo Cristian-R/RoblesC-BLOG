@@ -10,7 +10,7 @@ $query = $_SESSION["connection"]->query("SELECT salt, password FROM users WHERE 
 //"SELECT * FROM users WHERE BINARY username='$username' AND password='$password'") GOT THIS ONLINE TO MAKE  USERNAMES CASE SENSITIVE NOT SURE IF IT WORKS
 if ($query->num_rows == 1) {
     $row = $query->fetch_array();
-
+//makes you able to make a user login
     if ($row["password"] === crypt($password, $row["salt"])) {
         $_SESSION["authenticated"] = true;
         header("Location: " . $path . "index.php");
